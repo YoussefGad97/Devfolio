@@ -1,0 +1,487 @@
+/* firstpg */
+.navcolor
+{
+    background-color: black !important;
+}
+
+.fontsz
+{
+    font-size: 30px;
+}
+
+.fontsz2
+{
+    font-size: 70px;
+}
+
+.fontclr
+{
+    color:black;
+}
+
+.fontwght
+{
+    font-weight: 600;
+}
+
+.header
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.firstpg
+{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.color
+{
+    color:white;
+}
+
+.typing
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* secondpg */
+
+.secondpg
+{   
+    background-color: #F5F5F5; 
+    padding-bottom: 50px; 
+
+}
+
+.secondpg .card
+{
+    padding:50px;
+    margin-top: 70px;
+}
+
+.secondpg .card .list ul
+{
+    list-style: none;
+}
+
+.secondpg .card .list
+{
+    padding-left:100px;
+}
+
+.lft
+{
+    padding-left: 250px;
+}
+
+.lft2
+{
+    padding-left: 700px;
+}
+
+.fontsz3
+{
+    font-size: 20px;
+}
+
+/* thirdpg */
+.thirdpg
+{
+    background-color: #F5F5F5;
+    padding-bottom:70px;
+}
+
+    .fontsz4
+    {
+        font-size: 45px;
+    }
+
+.servicebox
+{
+    margin-top:50px;
+    padding-bottom:50px;
+}
+
+.serviceicon
+{
+    margin-top: 50px;
+    border:1px transparent solid;
+}
+
+.wdth
+{
+    width:15%;
+}
+
+.wdth2
+{
+    max-width:100%;
+}
+
+.brdr
+{
+    border: 10px #0278FF solid ;
+    text-align: center;
+    margin:auto;
+    border-radius:50%;
+    width: 120px;
+    height:120px;
+}
+
+.brdr2
+{
+    border: 10px rgba(255, 255, 255, 0.6) solid ;
+    text-align: center;
+    margin:auto;
+    border-radius:50%;
+    width: 90px;
+    height:90px;
+}
+
+.brdr3
+{
+    border: 10px rgba(255, 255, 255, 0.6) solid ;
+    text-align: center;
+    margin:auto;
+    border-radius:50%;
+    width: 10px;
+    height:10px;
+}
+
+#counter
+{
+    background: linear-gradient(rgba(0,122,255,0.7),rgba(0,122,255,0.7)) , url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom:50px;
+}
+
+.mgn
+{
+    padding-top: 70px;
+}
+
+.mgn2
+{
+    padding-top:45px;
+}
+
+#portoflio
+{
+    margin-top:50px;
+    padding-bottom:50px;
+}
+
+.bxshadow
+{
+    box-shadow: 0px 1px 5px #888888 ;
+}
+
+#testmonials
+{
+    background: linear-gradient(rgba(0,122,255,0.7),rgba(0,122,255,0.7)) , url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom:50px;
+}
+
+.pdn
+{
+    padding-bottom:100px;
+}
+
+.card-category {
+    display: inline-block;
+    color: #fff;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+
+.post-date
+{
+    color: #4e4e4e;
+    width:25%;
+}
+
+#blog
+{
+    padding-bottom:70px;
+    background-color: F5F5F5;
+}
+
+#contact
+{
+    background: linear-gradient(rgba(0,122,255,0.7),rgba(0,122,255,0.7)) , url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom:50px;
+    padding-top: 100px;
+}
+
+.contact-box
+{
+    padding:50px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    width:75%;
+
+}
+
+.more-info ul
+{
+    list-style: none;
+}
+
+.socials ul
+{
+    list-style: none;
+}
+
+.socials ul li
+{
+    display:inline-block;
+}
+
+.icon-circle
+{
+    border: 3px #0278FF solid ;
+    text-align: center;
+    margin:auto;
+    border-radius:50%;
+    width: 50px;
+    height:50px;
+}
+
+#contact button
+{
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.seperator
+{
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+}
+
+
+.seperator2
+{
+    height: 5px;
+    background-color: #0078ff;
+    width: 50px;
+}
+
+.header .typing p:after
+{
+    Content:"";
+    animation-name: Devfolio;
+    animation-duration:8s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Devfolio
+{
+    0%{content:"D"}
+    5%{content:"De"}
+    8%{content:"Dev"}
+    11%{content:"Deve"}
+    14%{content:"Devel"}
+    17%{content:"Develo"}
+    20%{content:"Develop"}
+    23%{content:"Develope"}
+    26%{content:"Developer"}
+    29%{content:"Develope"}
+    32%{content:"Develop"}
+    35%{content:"Develo"}
+    38%{content:"Devel"}
+    41%{content:"Deve"}
+    44%{content:"Dev"}
+    50%{content:"De"}
+    53%{content:"D"}
+    55%{content:""}
+    56%{content:"F"}
+    59%{content:"Fr"}
+    63%{content:"Fre"}
+    66%{content:"Free"}
+    69%{content:"Freel"}
+    72%{content:"Freela"}
+    75%{content:"Freelan"}
+    78%{content:"Freelanc"}
+    79%{content:"Freelance"}
+    80%{content:"Freelancer"}
+    81%{content:"Freelance"}
+    82%{content:"Freelanc"}
+    83%{content:"Freelan"}
+    84%{content:"Freela"}
+    85%{content:"Freel"}
+    86%{content:"Free"}
+    87%{content:"Fre"}
+    88%{content:"Fr"}
+    89%{content:"F"}
+    90%{content:""}
+    91%{content:"P"}
+    92%{content:"Ph"}
+    93%{content:"Pho"}
+    94%{content:"Phot"}
+    95%{content:"Photo"}
+    96%{content:"Photog"}
+    97%{content:"Photogr"}
+    98%{content:"Photogra"}
+    99%{content:"Photograp"}
+    100%{content:"Photograph"}
+    101%{content:"Photographe"}
+    102%{content:"Photographer"}
+    103%{content:"Photographe"}
+    104%{content:"Photograph"}
+    105%{content:"Photograp"}
+    106%{content:"Photogra"}
+    107%{content:"Photogr"}
+    109%{content:"Photog"}
+    110%{content:"Photo"}
+    112%{content:"Phot"}
+    113%{content:"Pho"}
+    114%{content:"Ph"}
+    115%{content:"P"}
+    116%{content:""}
+
+}
+
+#services .brdr:hover
+{
+    border: 8px lightblue solid;
+    transition:1s ease-in-out;
+    background-color: #0078ff;
+    color:white;
+}
+
+#counter #fourhundredfifty::after
+{
+    Content:"450";
+    animation-name: counter1;
+    animation-duration:1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+}
+
+@keyframes counter1
+{
+    0%{content:"0"}
+    5%{content:"50"}
+    8%{content:"120"}
+    11%{content:"160"}
+    14%{content:"190"}
+    17%{content:"220"}
+    20%{content:"250"}
+    23%{content:"300"}
+    26%{content:"320"}
+    29%{content:"350"}
+    32%{content:"450"}
+
+}
+
+#counter #twentyfive::after
+{
+    Content:"25";
+    animation-name: counter2;
+    animation-duration:2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+}
+
+@keyframes counter2
+{
+    0%{content:"0"}
+    5%{content:"5"}
+    8%{content:"10"}
+    11%{content:"15"}
+    14%{content:"20"}
+    17%{content:"25"}
+
+}
+
+#counter #fivefifty::after
+{
+    Content:"550";
+    animation-name: counter3;
+    animation-duration:1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+}
+
+@keyframes counter3
+{
+    0%{content:"0"}
+    5%{content:"50"}
+    8%{content:"120"}
+    11%{content:"160"}
+    14%{content:"190"}
+    17%{content:"220"}
+    20%{content:"250"}
+    23%{content:"300"}
+    26%{content:"320"}
+    29%{content:"500"}
+    32%{content:"550"}
+
+}
+
+#counter #fortyeight::after
+{
+    Content:"48";
+    animation-name: counter4;
+    animation-duration:2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+}
+
+@keyframes counter4
+{
+    0%{content:"0"}
+    5%{content:"10"}
+    8%{content:"15"}
+    11%{content:"25"}
+    14%{content:"40"}
+    17%{content:"48"}
+
+}
+
+
+#portoflio .box-image img:hover
+{
+    transform: scale(1.06);
+    transition: all 1s;
+}
+
+#contact .socials .icon-circle:hover
+{
+    background-color: #0078ff;
+    color:white;
+    transition:1s;
+    border:lightblue solid 5px;
+}
